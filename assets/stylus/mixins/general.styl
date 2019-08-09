@@ -1,0 +1,27 @@
+square(val)
+	width val
+	height val
+
+side(val)
+	left val
+	right val
+
+pxto(value, unit)
+	u = unit(value)
+	if (u is 'px')
+		return unit(value/16, unit)
+	else
+		return unit(value, u)
+
+fixFlicker()
+	-webkit-backface-visibility hidden
+	// will-change opacity
+
+repeatAnim(length, duration, delay)
+	for num, i in (1..length)
+		&:nth-child({num})
+			transition-delay (duration * i) + delay
+
+topRight(val)
+	top val
+	right val

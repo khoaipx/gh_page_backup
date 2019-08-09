@@ -1,0 +1,75 @@
+html
+	font-size 18px
+
+body
+	font-family ssp
+	font-weight 400
+
+.grey
+	background silver
+
+.italic
+	font-style italic
+
+h1
+	+below(md)
+		font-size 30px
+
+p, li
+	line-height 1.5
+	letter-spacing 0.4px
+	color rgba(0,0,0,.75)
+
+p.size-big
+	+above(md)
+		font-size 24px
+	+above(sm)
+		font-size 20px
+
+// container
+.container
+	box-sizing border-box
+	max-width 1040px
+	padding 0 40px
+	+below(md)
+		padding 0 mobilePadding
+
+// sections
+section
+	box-sizing border-box
+
+	&.w-pd
+		padding 100px 0
+		+below(lg)
+			padding 75px 0
+		+below(md)
+			padding 50px 0
+
+	.text-align-center
+		text-align center
+
+	&.bg-grey
+		background grey
+
+	.btn-divider
+		margin-left 25px
+		+below(md)
+			margin 0 15px
+		top -4px
+
+.anim-item
+	opacity 0
+	// transform translateY(5px)
+	// transition .3s opacity ease, .3s transform ease
+
+.title
+	color rgba(0,0,0,.85)
+.subtitle
+	color rgba(0,0,0,.5)
+.date
+	color rgba(0,0,0,.4)
+
+.sticky
+	position sticky
+	position -webkit-sticky
+	top	120px

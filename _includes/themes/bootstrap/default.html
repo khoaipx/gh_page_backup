@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>{{ page.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="{{ BASE_PATH }}/assets/css/flexgridcombo.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="{{ BASE_PATH }}/assets/css/style.css" rel="stylesheet">
+  
+    <!--[if lt IE 9]>
+      <script src="{{ ASSET_PATH }}/resources/respond/Respond.min.js"></script>
+    <![endif]-->
+
+    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+	<link rel="shortcut icon" href="{{ BASE_PATH }}/assets/images/icons/khoaipx.ico" type="image/x-icon">
+	<link rel="icon" href="{{ BASE_PATH }}/assets/images/icons/khoaipx.ico" type="image/x-icon">
+
+  </head>
+
+	{% if page.background == 'grey' %}
+	<body class="grey">
+	{% else %}
+  <body>
+	{% endif %}
+
+		{% if page.layout == 'post' %}
+			<div class="progress-bar">
+				<div class="bar"></div>
+			</div>
+		{% endif %}
+
+		{% if page.headerStyle == 'big' %}
+		<header class="header--big flex align-items-center">
+		{% elsif page.headerStyle == 'title' %}
+		<header class="header--title flex align-items-center">
+		{% else %}
+		<header class="header--small flex align-items-center">
+		{% endif %}
+			<div class="container">
+				<div class="align-items-center flex">
+				<div class="logo-wrapper">
+					<a class="logo" href="/"><img src="{{ BASE_PATH }}/assets/images/icons/logo.jpg" width="40" height="40">Pham Xuan Khoai</a>
+				</div>
+				<ul class="nav align-items-center">
+					{% assign pages_list = site.pages %}
+					{% assign group = 'corePages' %}
+					{% include JB/pages_list %}
+				</ul>
+				<div class="burger-menu">
+					<div class="bar bar--top"></div>
+					<div class="bar bar--middle"></div>
+					<div class="bar bar--bottom"></div>
+				</div>
+				</div>
+			</div>
+		</header>
+
+		{% if page.headerStyle == 'title' %}
+		<section class="section-title">
+			<div class="container">
+				<div class="section-content">
+					<h1>{{ page.title }}</h1>
+				</div>
+			</div>
+		</section>
+		{% endif %}
+
+		<section id="{{ page.section }}" class="flex align-items-center">
+			<div class="container">
+				{{ content }}
+			</div>
+		</section>
+
+		<footer>
+			<div class="container">
+				<p>
+					&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+				</p>
+			</div>
+		</footer>
+
+    {% include JB/analytics %}
+    <script src="{{ BASE_PATH }}/assets/js/ScrollMonitor.min.js"></script>
+    <script src="{{ BASE_PATH }}/assets/js/TweenMax.min.js"></script>
+    <script src="{{ BASE_PATH }}/assets/js/main.js"></script>
+  </body>
+</html>

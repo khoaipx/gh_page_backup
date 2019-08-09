@@ -1,0 +1,176 @@
+#home
+	min-height calc(100vh - 80px)
+	padding-top 80px
+	box-sizing border-box
+
+	.about
+		margin-bottom 35px
+
+	shadowGap = 12px
+	.profile-picture
+		max-width 140px
+		margin-right 40px
+		border-radius 50%
+		+below(md)
+			max-width 100px
+			margin-bottom 15px
+
+	.social-links
+		margin-top 15px
+		a
+			margin-right 15px
+			color #000
+			font-size 22px
+
+		.icon-indiehackers
+			width 20px
+			position relative
+			top -1px
+
+	.about-detail
+		+below(md)
+			width 100%
+			.desc
+				font-size 25px
+		.title
+			font-weight 700
+			margin-bottom 3px
+		.desc
+			color rgba(0,0,0,.5)
+			font-weight 400
+
+// post banner
+#post-banner
+	display block
+	background silver
+	padding 15px 0
+	border-top 1px solid rgba(0,0,0,.05)
+	border-bottom 1px solid rgba(0,0,0,.05)
+	// border 1px solid #f5f5f5
+	// box-shadow 0 5px 10px 0 rgba(0,0,0,.05)
+	font-size 18px
+	color #777
+
+	.udemy-logo
+		display inline-block
+		margin-right 8px
+		padding-right 10px
+		margin-bottom 0
+		border-right 1px solid #ddd
+		img
+			width 100px
+			position relative
+			top -3px
+
+// list wrapper
+.list-wrapper
+	position relative
+	background #fff
+	margin 20px 0 50px
+	+above(md)
+		&:before,
+		&:after
+			content ''
+			position absolute
+			top 0
+			bottom 1px
+			width 30px
+			background #fff
+			z-index 1
+		&:before
+			left 0
+			transform translateX(-100%)
+		&:after
+			right 0
+			transform translateX(100%)
+
+	> li
+		&:last-child
+			border-bottom 1px solid #eee
+	.list-item
+		padding 20px 0
+		display block
+		position relative
+		border-top 1px solid #eee
+		p:last-child
+			margin-bottom 0
+		.date
+			font-size 16px
+	a.list-item
+		&:before
+			content ''
+			position absolute
+			top 0
+			right	0
+			left 0
+			bottom 0
+			box-shadow 0 10px 20px 0 rgba(0,0,0,0.075)
+			transition .3s all ease
+			opacity 0
+		&:after
+			content ''
+			position absolute
+			top 50%
+			right 0
+			square(20px)
+			margin-top -10px
+			background url('../images/icons/arrow-right.svg') no-repeat center center / cover
+			opacity 0
+			transform translateX(-10px)
+			transition .3s all ease
+		&:hover:before,
+		&:hover:after
+			opacity 1
+			transform none
+
+// section title
+.section-title + section
+	margin-bottom 30px
+
+// archive
+#archive
+	position relative
+
+	+below(md)
+		order 1
+
+	.sticky
+		display inline-block
+		padding 8px 25px 11px
+		border-radius 50px
+		background #eee
+		top 100px
+		font-size 20px
+		margin-bottom 20px
+		z-index 2
+		+above(xl)
+			transform translateX(-50%)
+
+// portfolio
+#portfolio
+	.portfolio-piece
+		display block
+		&:not(:last-child)
+			margin-bottom 50px
+			+below(md)
+				margin-bottom 25px
+
+// subscribe
+.subscribe-form
+	h6
+		font-weight 700
+		letter-spacing 1px
+		margin-bottom 15px
+
+	.input-wrapper
+		margin-top 30px
+		[type="email"]
+			margin-bottom 15px
+			padding-bottom .5rem
+	
+	+below(md)
+		position relative
+		top 0
+		padding-bottom 50px
+		margin-bottom 50px
+		border-bottom 1px solid #eee

@@ -1,0 +1,162 @@
+header
+	position fixed
+	top 0
+	left 0
+	width 100%
+	z-index 10
+	transition .3s transform ease
+	min-height headerHeight
+
+	+ section:not(#home)
+		padding-top headerHeight
+	+ #post-banner
+		margin-top headerHeight
+
+	&.header--title
+		+ .section-title
+			background silver
+			margin-bottom 80px
+			+below(md)
+				margin-bottom 40px
+			border-bottom 1px solid rgba(0,0,0,.05)
+			.section-content
+				border-top 1px solid rgba(0,0,0,.05)
+				padding 20px
+			h1
+				font-weight 400
+				text-transform uppercase
+				letter-spacing 2px
+				text-align center
+				+below(md)
+					font-size 34px
+
+	&.header--big
+		+above(xl)
+			transform translateY(30px)
+		+ section:not(#home)
+			padding-top headerHeight * 2
+
+	&:before
+		content ''
+		position absolute
+		top 0
+		right 0
+		bottom 0
+		left 0
+		background #fff
+		pointer-events none
+		box-shadow 0 3px 8px 0 rgba(0,0,0,0.05)
+		z-index -1
+		opacity 0
+		transition .3s all ease
+
+	.logo
+		color black
+		font-size 25px
+		font-weight 700
+		letter-spacing 0
+
+	&.show-bg
+		transform none
+		&:before
+			opacity 1
+		// +above(sm)
+		// 	padding 20px 0
+
+	&.show-nav
+		padding 22px 0
+		&:before
+			opacity 1
+		+below(sm)
+			.header-menu
+				display block
+			.bar--top
+				transform translateY(0) translateX(-4px) rotate(-45deg)
+			.bar--middle
+				transform translateX(-10px)
+				opacity 0
+			.bar--bottom
+				transform translateY(0) translateX(-4px) rotate(45deg)
+			.nav
+				display block
+
+// header menu
+.nav
+	position relative
+	+above(sm)
+		top 1px
+		margin-left auto
+	+below(sm)
+		flex-basis 100%
+		max-width 100%
+		order 3
+		flex-direction column
+		margin-top 20px
+		padding-top 20px
+		border-top 1px solid #eee
+		display none
+		
+	li:not(:last-child)
+		+above(sm)
+			margin-right 30px
+		+below(sm)
+			margin-bottom 10px
+
+	li
+		a
+			color #000
+			opacity .5
+			transition .3s opacity ease
+			&:hover
+				opacity 1
+		&.active a
+			opacity 1
+			font-weight 400
+
+	.logo-wrapper
+		margin-right auto !important
+		.logo
+			opacity 1
+			letter-spacing .5px
+			text-transform uppercase
+
+	.btn--ghost
+		+below(sm)
+			padding 0
+
+// burger menu
+.burger-menu
+	w = 23px
+	width w
+	height 18px
+	cursor pointer
+	position relative
+	margin-left auto
+
+	+above(sm)
+		display none
+
+	.bar
+		width 100%
+		height 2px
+		background black
+		position absolute
+		transition .3s all ease
+		&--top
+			transform-origin right top
+			top 0
+		&--middle
+			top 50%
+			margin-top -1px
+		&--bottom
+			transform-origin right bottom
+			bottom 0
+
+	&.is-active
+		.bar--top
+			transform translateY(0) translateX(-4px) rotate(-45deg)
+		.bar--middle
+			transform translateX(-10px)
+			opacity 0
+		.bar--bottom
+			transform translateY(0) translateX(-4px) rotate(45deg)

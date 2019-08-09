@@ -1,0 +1,24 @@
+---
+layout: page
+title : Blog
+header : Post Archive
+group: corePages
+headerStyle: title
+---
+{% include JB/setup %}
+
+<div class="row justify-between align-top">
+	<div id="archive" class="col-md-7">
+		{% assign posts_collate = site.posts %}
+		{% include JB/posts_collate %}
+	</div>
+
+	<form class="subscribe-form col-md-4 sticky" action="https://protonmail.us20.list-manage.com/subscribe/post?u=ea649ac4a565cee1d0b09f395&amp;id=6c46d8e69c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form">
+		<h6>Subscribe</h6>
+		<p>Subscribe to read more things from me.</p>
+		<div class="input-wrapper">
+			<input type="email" class="form-control" placeholder="Email" aria-label="Email" name="EMAIL" id="mce-EMAIL" required>
+			<input type="submit" value="Send" class="btn btn-primary btn" role="button">
+		</div>
+	</form>
+</div>

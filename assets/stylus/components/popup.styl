@@ -1,0 +1,98 @@
+#popup
+	min-height 100vh
+	position fixed
+	top 0
+	left 0
+	right 0
+	height 100%
+	z-index 11
+	pointer-events none
+	text-align center
+
+	.overlay
+		position absolute
+		top 0
+		left 0
+		right 0
+		bottom 0
+		background #fff
+		pointer-events none
+		z-index -1
+		opacity 0
+		transition .3s all ease
+
+	.close-popup-trigger
+		position fixed
+		z-index 2
+		topRight(50px)
+		width 20px
+		display block
+		cursor pointer
+		svg
+			display block
+		+below(md)
+			topRight(25px)
+
+	// popup app
+	p a
+		color blue
+		text-decoration underline
+
+	.popup-content
+		text-align center
+		width 100%
+		+above(350px, true)
+			max-width 350px
+		.title
+			margin-bottom 20px
+
+	form
+		margin-top 30px
+		[type="text"]
+			margin-right 5px
+			width 100%
+		[type="submit"]
+			cursor pointer
+
+	input
+		-webkit-appearance none
+		-moz-appearance none
+		padding 12px 15px 14px
+		border 1px solid #ddd
+		font-size 16px
+		border-radius 3px
+		transition .3s all ease
+		&:focus
+			outline none
+			border-color blue
+		&[type="submit"]
+			box-shadow 0 2px 10px 0 rgba(0,0,0,.1)
+			padding-left 40px
+			padding-right 40px
+			color #fff
+			background green
+			border none
+			&:hover
+				background lighten(green, 10%)
+
+	// if popup is active
+	mainDelay = .2s
+	&.is-active
+		pointer-events auto
+
+		.anim-item
+			opacity 1
+			transform none
+
+		.overlay
+			opacity 1
+
+		// anim items
+		.close-popup-trigger
+			transition-delay .1s
+		.title
+			transition-delay mainDelay + .1
+		.desc
+			transition-delay mainDelay + .2
+		form
+			transition-delay mainDelay + .3
