@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Pham Xuan Khoai</title>
+ <link href="http://khoaipx.github.io/" rel="self"/>
+ <link href="http://khoaipx.github.io"/>
+ <updated>2019-08-13T17:16:53+08:00</updated>
+ <id>http://khoaipx.github.io</id>
+ <author>
+   <name>Pham Xuan Khoai</name>
+   <email>phamxuankhoai@gmail.com</email>
+ </author>
+
+ 
+ 
+</feed>

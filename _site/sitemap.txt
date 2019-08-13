@@ -1,0 +1,13 @@
+
+http://khoaipx.github.io/CV/
+http://khoaipx.github.io/about/
+http://khoaipx.github.io/archive/
+http://khoaipx.github.io/atom.xml
+http://khoaipx.github.io/categories/
+http://khoaipx.github.io/custom.css
+http://khoaipx.github.io/
+http://khoaipx.github.io/pages/
+http://khoaipx.github.io/portfolio/
+http://khoaipx.github.io/rss.xml
+http://khoaipx.github.io/sitemap.txt
+http://khoaipx.github.io/tags/
