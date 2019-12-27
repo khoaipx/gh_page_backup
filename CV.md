@@ -15,7 +15,7 @@ headerStyle: title
         <ul class="list-wrapper">
             <li>
                 <div class="list-item">
-                    <p><b>2018 - Now: City University of Hong Kong</b></p>
+                    <p><b>2018 - 2019: City University of Hong Kong (Incomplete)</b></p>
                     <p><em>Ph.D. Student in Computer Science</em></p>
                     <ul>
                         <li>Research topic: Multi-modal dialogue system</li>
