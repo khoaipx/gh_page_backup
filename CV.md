@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Curriculum Vitae"
+title: "Résumé"
 group: corePages
 description: ""
 headerStyle: title
@@ -9,6 +9,73 @@ headerStyle: title
 
 <div class="row justify-center">
 	<div id="cv" class="col-lg-8 col-md-10 col-12">
+	
+	
+	    <h3 id="experience">Experience</h3>
+        <ul class="list-wrapper">
+            <li>
+                <div class="list-item">
+                    <p><b>Apr. 2019-Now: Freelancer</b></p>
+                    <ul>
+                        <li>I can do small or medium-size projects which may be finished in 1 or 2 months, related to AI, of course. I prefer NLP projects. But you should contact me to tell what you want, we can discuss deeply to find solutions. I can introduce someone to help you if need.</li>
+                        <li>Check <a href="/portfolio">my Portfolio</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="list-item">
+                    <p><b>Jan. 2020-Now: <a href="https://www.topcv.vn/">TopCV Joint-stock Company</a></b></p>
+                    <p><em>AI Engineer</em></p>
+                    <ul>
+                        <li>TopCV is the first platform connecting between recuiters and candidates via CV in Vietnam.</li>
+                        <li>Building smart systems and modules integrated with existed systems</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="list-item">
+                    <p><b>Jun. 2019-Aug. 2019: <a href="http://www.nextcenter.org/">NExT++ research center</a></b></p>
+                    <p><em>Intern Researcher</em></p>
+                    <ul>
+                        <li>NExT++ is a joint research center established by the National University of Singapore, Tsinghua University of China and University of Southampton, UK.</li>
+                        <li>Building a chatbot for DietLens</li>
+                        <li>Building data analysis service for DietLens</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="list-item">
+                    <p><b>Sep. 2017-Aug. 2018: <a href="https://finsify.com/">Finsify Co.,Ltd</a></b></p>
+                    <p><em>Data Scientist/Leader of AI Team</em></p>
+                    <ul>
+                        <li>Finsify is a fintech company in Vietnam. People often know my company through our famous product, Moneylover.</li>
+                        <li>Developing data analysis services: bank transactions classification, bank transaction amount prediction, transaction suggestion</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="list-item">
+                    <p><b>Aug. 2016 - Apr. 2017: <a href="https://www.vng.com.vn/">VNG Corporation</a></b></p>
+                    <p><em>Research Scientist</em></p>
+                    <ul>
+                        <li>VNG is one of the biggest internet services company in Vietnam. We are famous with many productions: Zing Me, Zalo, Vo Lam Truyen Ky game, ... According to World Start-up Report, VNG is an only unicorn start-up in Vietnam.</li>
+                        <li>Building a fraud detection system for Zalo Pay</li>
+                        <li>Building Natural Language Understanding module in dialogue system for 123Xe service</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="list-item">
+                    <p><b>Dec. 2015 - Aug. 2016: Rich Anchor Technology</b></p>
+                    <p><em>Machine Learning Engineer</em></p>
+                    <ul>
+                        <li>Rich Anchor is a start-up company. We have a dream to build a recommendation system for content providers.</li>
+                        <li>Developing recommendation system for Alezaa eBook store</li>
+                        <li>Developing data analysis services for Money Lover app (outsourcing)</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
 
         <h3 id="education">Education</h3>
         
@@ -30,7 +97,8 @@ headerStyle: title
                     <ul>
                         <li>Capstone Project: <a href="/misc/thesis.pdf">Building a Semantic Role Labelling Toolkit for Vietnamese</a></li>
                         <li>Supervisor: <a href="http://mim.hus.vnu.edu.vn/phuonglh">Dr. Le Hong Phuong</a></li>
-                        <li>GPA: 8.63 (Thesis: 9.8)</li>
+                        <li><b>GPA:</b> 8.63 (Top 3)</li>
+                        <li><b>Thesis:</b> 9.8 (Top 1)</li>
                     </ul>
                 </div>
             </li>
@@ -106,65 +174,12 @@ headerStyle: title
             </li>
         </ul>
         
-        <h3 id="experience">Experience</h3>
-        <ul class="list-wrapper">
-            <li>
-                <div class="list-item">
-                    <p><b>Apr. 2019-Now: Freelancer</b></p>
-                    <ul>
-                        <li>I can do small or medium-size projects which may be finished in 1 or 2 months, related to AI, of course. I prefer NLP projects. But you should contact me to tell what you want, we can discuss deeply to find solutions. I can introduce someone to help you if need.</li>
-                        <li>Check <a href="/portfolio">my Portfolio</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li>
-                <div class="list-item">
-                    <p><b>Jun. 2019-Aug. 2019: NExT++ research center</b></p>
-                    <p><em>Researcher</em></p>
-                    <ul>
-                        <li>NExT++ is a joint research center established by the National University of Singapore, Tsinghua University of China and University of Southampton, UK.</li>
-                        <li>Building a chatbot for DietLens</li>
-                        <li>Building data analysis service for DietLens</li>
-                    </ul>
-                </div>
-            </li>
-            <li>
-                <div class="list-item">
-                    <p><b>Sep. 2017-Now: Finsify Co.,Ltd</b></p>
-                    <p><em>Data Scientist/Leader of AI Team</em></p>
-                    <ul>
-                        <li>People often know my company through our famous product, Moneylover.</li>
-                        <li>Developing data analysis services: bank transactions classification, bank transaction amount prediction, transaction suggestion</li>
-                    </ul>
-                </div>
-            </li>
-            <li>
-                <div class="list-item">
-                    <p><b>Aug. 2016 - Apr. 2017: VNG Corporation</b></p>
-                    <p><em>Research Scientist</em></p>
-                    <ul>
-                        <li>Building a fraud detection system for Zalo Pay</li>
-                        <li>Building Natural Language Understanding module in dialogue system for 123Xe service</li>
-                    </ul>
-                </div>
-            </li>
-            <li>
-                <div class="list-item">
-                    <p><b>Dec. 2015 - Aug. 2016: Rich Anchor Technology</b></p>
-                    <p><em>Machine Learning Engineer</em></p>
-                    <ul>
-                        <li>Developing recommendation system for Alezaa eBook store</li>
-                        <li>Developing data analysis services for Money Lover app (outsourcing)</li>
-                    </ul>
-                </div>
-            </li>
-        </ul>
-        
         <h3 id="skills">Skills</h3>
         <ul class="list-wrapper">
-            <li><div class="list-item"><p><b>Programming:</b> Python</p></div></li>
-            <li><div class="list-item"><p><b>Machine learning:</b> scikit-learn, pytorch, keras, flair, spacy, gensim, pandas, numpy, ...</p></div></li>
-            <li><div class="list-item"><p><b>Version Control:</b> git</p></div></li>
+            <li><div class="list-item"><p><b>Specialties:</b> Machine Learning, Natural Language Processing, Computer Vision, Data Mining</p></div></li>
+            <li><div class="list-item"><p><b>Programming Language:</b> Python</p></div></li>
+            <li><div class="list-item"><p><b>Packages:</b> scikit-learn, pytorch, keras, flair, spacy, gensim, pandas, numpy, ...</p></div></li>
+            <li><div class="list-item"><p><b>Tools:</b> git, jupiter notebook</p></div></li>
             <li><div class="list-item"><p><b>Operation Systems:</b> Ubuntu, Windows</p></div></li>
         </ul>
 
