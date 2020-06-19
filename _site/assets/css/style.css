@@ -1,19 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700");
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?5h30r5');
-  src:  url('../fonts/icomoon.eot?5h30r5#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?5h30r5') format('truetype'),
-    url('../fonts/icomoon.woff?5h30r5') format('woff'),
-    url('../fonts/icomoon.svg?5h30r5#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?5m991b');
+  src:  url('../fonts/icomoon.eot?5m991b#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?5m991b') format('truetype'),
+    url('../fonts/icomoon.woff?5m991b') format('woff'),
+    url('../fonts/icomoon.svg?5m991b#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: none;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -25,17 +26,32 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-mail2:before {
-  content: "\ea84";
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-mail:before {
+  content: "\ea83";
 }
 .icon-facebook2:before {
   content: "\ea91";
 }
-.icon-twitter:before {
-  content: "\ea96";
+.icon-instagram:before {
+  content: "\ea92";
 }
 .icon-github:before {
   content: "\eab0";
+}
+.icon-wordpress:before {
+  content: "\eab4";
+}
+.icon-skype:before {
+  content: "\eac5";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+.icon-file-pdf:before {
+  content: "\eadf";
 }
 
 * {
