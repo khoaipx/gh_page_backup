@@ -21,6 +21,9 @@ headerStyle: small
 					<a class="icon-linkedin" href="https://www.linkedin.com/in/khoaipx93/">
 						<img src="{{ BASE_PATH }}/assets/images/icons/linked-in.png" alt="LinkedIn">
 					</a>
+					<a class="icon-facebook" href="https://www.facebook.com/khoaipx/">
+						<img src="{{ BASE_PATH }}/assets/images/icons/fb.png" alt="facebook"  width="20" height="20">
+					</a>
 					<a class="icon-download" href="https://github.com/khoaipx/khoaipx.github.io/raw/master/misc/CV_khoaipx.pdf">
 						<img src="{{ BASE_PATH }}/assets/images/icons/download.jpg" alt="Download" width="20" height="20">
 					</a>

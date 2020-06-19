@@ -29,8 +29,8 @@ headerStyle: title
 		finnacial problems and could not continue to stay together. However, in that period, I learned a lot about programming and 
 		how to create a production from my colleagues. My next company is VNG (previously, known as Vina game), an only unicorn start-up in Vietnam. It is 
 		one of the biggest internet service company in Vietnam with many famous productions: Zing Me, Zalo, Vo Lam Truyen Ky game, ...
-		I worked as a research scientist in R&D team. I leaned a little bit about Golang. But, after long time, I am not 
-		sure that I can write a complete small program with it. My next and final destination before I go to Hong Kong is Finsify.
+		I worked as a research scientist in R&D team. I learned a little bit about Golang. But, after long time, I am not 
+		sure that I can write a complete small program with it. My next and final destination before I went to Hong Kong is Finsify.
 		Its name tells a part of it. Finsify is a start-up company in fintech domain. We provide services relevant to personal 
 		financial management, bank and account aggregation, and money management solution for business. One of our well-known 
 		production is Money Lover. It is a mobile app to help people to manage their money. I built an end-to-end system to classify 
