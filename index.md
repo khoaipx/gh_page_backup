@@ -17,10 +17,11 @@ headerStyle: small
 				<h1 class="title">{{ page.title }}</h1>
 				<h3 class="desc">{{ page.tagline }}</h3>
 				<div class="social-links flex align-items-center">
-					<a class="icon-github" href="https://github.com/khoaipx"></a>
-					<a class="icon-linkedin" href="https://www.linkedin.com/in/khoaipx93/"></a>
-					<a class="icon-facebook2" href="https://www.facebook.com/khoaipx/"></a>
-					<a class="icon-file-pdf" href="https://github.com/khoaipx/khoaipx.github.io/raw/master/misc/CV_khoaipx.pdf"></a>
+					<a class="icon-github" href="https://github.com/{{ site.author.github }}" data-toggle="tooltip" data-placement="bottom" title="Github" target="_blank"></a>
+					<a class="icon-linkedin" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" data-toggle="tooltip" data-placement="bottom" title="Linkedin" target="_blank"></a>
+					<a class="icon-facebook2" href="https://www.facebook.com/{{ site.author.facebook }}" data-toggle="tooltip" data-placement="bottom" title="Facebook" target="_blank"></a>
+					<a class="icon-mail" href="mailto:{{ site.author.email }}" data-toggle="tooltip" data-placement="bottom" title="Email"></a>
+					<a class="icon-file-pdf" href="{{ site.cv_url }}" data-toggle="tooltip" data-placement="bottom" title="Download CV"></a>
 				</div>
 			</div>
 		</div>

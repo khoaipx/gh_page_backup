@@ -24,13 +24,11 @@ Usage:
   {% include custom/pages_list %}
 {% else %}
 
-{% comment %}<!--
 {% if page.url == "/index.html" %}
   <li class="active"><a class="list-item" href="/">Home</a></li>
 {% else %}
   <li><a class="list-item" href="/">Home</a></li>
 {% endif %}
--->{% endcomment %}
 
   {% for node in pages_list %}
     {% if node.title != null %}
