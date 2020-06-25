@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pham Xuan Khoai
-tagline: Data Scientist
+tagline: Machine Learning Engineer
 section: home
 analytics: true
 headerStyle: small
@@ -12,7 +12,7 @@ headerStyle: small
 
 	<div class="col-xl-8 col-lg-10 col-12 stagger-animation">
 		<div class="about flex align-items-center">
-			<img class="anim-item profile-picture align-self-start" src="{{ BASE_PATH }}/assets/images/khoaipx.png" alt="Khoai">
+			<img class="anim-item profile-picture align-self-start" src="{{ site.avatar_path }}">
 			<div class="about-detail anim-item">
 				<h1 class="title">{{ page.title }}</h1>
 				<h3 class="desc">{{ page.tagline }}</h3>
@@ -29,6 +29,7 @@ headerStyle: small
 		<div class="detail">
 			<div class="btns-wrapper anim-item">
 				<a href="/about" class="btn btn-primary">About Me</a>
+				<a href="/CV" class="btn btn-info">Résumé</a>
 				<a href="/portfolio" class="btn btn-secondary">View Portfolio</a>
 			</div>
 		</div>

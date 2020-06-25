@@ -182,6 +182,8 @@ headerStyle: title
             <li><div class="list-item"><p><b>Tools:</b> git, jupiter notebook</p></div></li>
             <li><div class="list-item"><p><b>Operation Systems:</b> Ubuntu, Windows</p></div></li>
         </ul>
-
+       
+       <h5>You can download printable version <a href="{{ site.cv_url }}">here</a>.</h5> 
+       
     </div>
 </div>
