@@ -575,12 +575,12 @@ footer p {
   }
 }
 .btns-wrapper .btn:not(:last-child) {
-  margin-right: 15px;
+  margin-right: 10px;
 }
 .btn {
   font-weight: 600;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .btn.btn-primary {
   background: #1e90ff;
