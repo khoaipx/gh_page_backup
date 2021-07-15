@@ -15,7 +15,8 @@ headerStyle: title
         <ul class="list-wrapper">
             <li>
                 <div class="list-item">
-                    <p><b>Apr. 2019-Now: Freelancer</b></p>
+                    <p style="font-size:30px;"><strong>Freelancer</strong></p>
+                    <p><em><b>Apr. 2019-Now</b></em></p>
                     <ul>
                         <li>I can do small or medium-size projects which may be finished in 1 or 2 months, related to AI, of course. I prefer NLP projects. But you should contact me to tell what you want, we can discuss deeply to find solutions. I can introduce someone to help you if need.</li>
                         <li>Check <a href="/portfolio">my Portfolio</a></li>
@@ -24,8 +25,9 @@ headerStyle: title
             </li>
             <li>
                 <div class="list-item">
-                    <p><b>Jan. 2020-Now: <a href="https://www.topcv.vn/">TopCV Joint-stock Company</a></b></p>
-                    <p><em>AI Engineer</em></p>
+                    <p style="font-size:30px;"><strong><a href="https://www.topcv.vn/">TopCV Joint-stock Company</a></strong></p>
+                    <p><em><b>Oct. 2020-Now:</b> R&D Manager</em></p>
+                    <p><em><b>Jan. 2020-Now:</b> AI Engineer</em></p>
                     <ul>
                         <li>TopCV is the first platform connecting between recuiters and candidates via CV in Vietnam.</li>
                         <li>Building smart systems and modules integrated with existed systems</li>
@@ -34,8 +36,8 @@ headerStyle: title
             </li>
             <li>
                 <div class="list-item">
-                    <p><b>Jun. 2019-Aug. 2019: <a href="http://www.nextcenter.org/">NExT++ research center</a></b></p>
-                    <p><em>Intern Researcher</em></p>
+                    <p style="font-size:30px;"><strong><a href="http://www.nextcenter.org/">NExT++ research center</a></strong></p> 
+                    <p><em><b>Jun. 2019-Aug. 2019: </b>Intern Researcher</em></p>
                     <ul>
                         <li>NExT++ is a joint research center established by the National University of Singapore, Tsinghua University of China and University of Southampton, UK.</li>
                         <li>Building a chatbot for DietLens</li>
@@ -45,8 +47,8 @@ headerStyle: title
             </li>
             <li>
                 <div class="list-item">
-                    <p><b>Sep. 2017-Aug. 2018: <a href="https://finsify.com/">Finsify Co.,Ltd</a></b></p>
-                    <p><em>Data Scientist/Leader of AI Team</em></p>
+                    <p style="font-size:30px;"><strong><a href="https://finsify.com/">Finsify Co.,Ltd</a></strong></p>
+                    <p><em><b>Sep. 2017-Aug. 2018: </b>Data Scientist/Leader of AI Team</em></p>
                     <ul>
                         <li>Finsify is a fintech company in Vietnam. People often know my company through our famous product, Moneylover.</li>
                         <li>Developing data analysis services: bank transactions classification, bank transaction amount prediction, transaction suggestion</li>
@@ -55,8 +57,8 @@ headerStyle: title
             </li>
             <li>
                 <div class="list-item">
-                    <p><b>Aug. 2016 - Apr. 2017: <a href="https://www.vng.com.vn/">VNG Corporation</a></b></p>
-                    <p><em>Research Scientist</em></p>
+                    <p style="font-size:30px;"><strong><a href="https://www.vng.com.vn/">VNG Corporation</a></strong></p>
+                    <p><em><b>Aug. 2016 - Apr. 2017: </b>Research Scientist</em></p>
                     <ul>
                         <li>VNG is one of the biggest internet services company in Vietnam. We are famous with many productions: Zing Me, Zalo, Vo Lam Truyen Ky game, ... According to World Start-up Report, VNG is an only unicorn start-up in Vietnam.</li>
                         <li>Building a fraud detection system for Zalo Pay</li>
@@ -66,8 +68,8 @@ headerStyle: title
             </li>
             <li>
                 <div class="list-item">
-                    <p><b>Dec. 2015 - Aug. 2016: Rich Anchor Technology</b></p>
-                    <p><em>Machine Learning Engineer</em></p>
+                    <p style="font-size:30px;"><strong>Rich Anchor Technology</strong></p>
+                    <p><em><b>Dec. 2015 - Aug. 2016: </b>Machine Learning Engineer</em></p>
                     <ul>
                         <li>Rich Anchor is a start-up company. We have a dream to build a recommendation system for content providers.</li>
                         <li>Developing recommendation system for Alezaa eBook store</li>

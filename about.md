@@ -11,7 +11,7 @@ headerStyle: title
 	<article class="col-lg-8 col-md-10 col-12">
 
 		<p>My name is <b>Pham Xuan Khoai</b>, in short <b>Khoai</b> (if you are hard to pronounce my name, you can call me <b>Nolan</b>). 
-		I'm from Vietnam. Currently, I am AI Engineer at TopCV company.</p>
+		I'm from Vietnam. Currently, I am R&D Manager and AI Engineer at TopCV company.</p>
 		
 		<p>Due to the influence of my first supervisor, <a href="http://mim.hus.vnu.edu.vn/phuonglh/">Dr. Le Hong Phuong</a>, 
 		I have a special concern about Natural Language Processing and Data Science. In 4 years after I graduated university, 
@@ -35,7 +35,7 @@ headerStyle: title
 		financial management, bank and account aggregation, and money management solution for business. One of our well-known 
 		production is Money Lover. It is a mobile app to help people to manage their money. I built an end-to-end system to classify 
 		bank transactions. You can find more details in <a href="/portfolio">my portfolio</a>. Besides, it is the first time 
-		I become a leader. However, I only managed 2 intern students from 2 well-known universities. They are good and potential students.
+		I became a leader. However, I only managed 2 intern students from 2 well-known universities. They are good and potential students.
 		They helped me a lot. And it is very happy when one of them is motivated by me to follow my career path to become a data scientist.</p>
 		
 		<p>Beside my passion of Machine Learning, I am very interested to algorithms. When I studied at FPT University, 
