@@ -11,3 +11,5 @@ http://khoaipx.github.io/portfolio/
 http://khoaipx.github.io/rss.xml
 http://khoaipx.github.io/sitemap.txt
 http://khoaipx.github.io/tags/
+http://khoaipx.github.io/assets/css/style.css
+http://khoaipx.github.io/History/
