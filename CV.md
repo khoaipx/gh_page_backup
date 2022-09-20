@@ -26,8 +26,9 @@ headerStyle: title
             <li>
                 <div class="list-item">
                     <p style="font-size:30px;"><strong><a href="https://www.topcv.vn/">TopCV Joint-stock Company</a></strong></p>
-                    <p><em><b>Oct. 2020-Now:</b> R&D Manager</em></p>
-                    <p><em><b>Jan. 2020-Now:</b> AI Engineer</em></p>
+                    <p><em><b>Jun. 2022-Now:</b> Data Science Manager</em></p>                    
+                    <p><em><b>Oct. 2020-Jun. 2022:</b> Product R&D Manager</em></p>
+                    <p><em><b>Jan. 2020-Dec. 2021:</b> AI Engineer</em></p>
                     <ul>
                         <li>TopCV is the first platform connecting between recuiters and candidates via CV in Vietnam.</li>
                         <li>Building smart systems and modules integrated with existed systems</li>
@@ -182,7 +183,7 @@ headerStyle: title
             <li><div class="list-item"><p><b>Programming Language:</b> Python</p></div></li>
             <li><div class="list-item"><p><b>Packages:</b> scikit-learn, pytorch, keras, flair, spacy, gensim, pandas, numpy, ...</p></div></li>
             <li><div class="list-item"><p><b>Tools:</b> git, jupiter notebook</p></div></li>
-            <li><div class="list-item"><p><b>Operation Systems:</b> Ubuntu, Windows</p></div></li>
+            <li><div class="list-item"><p><b>Operation Systems:</b> Ubuntu</p></div></li>
         </ul>
        
        <h5>You can download printable version <a href="{{ site.cv_url }}">here</a>.</h5> 

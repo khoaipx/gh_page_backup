@@ -11,7 +11,7 @@ headerStyle: title
 	<article class="col-lg-8 col-md-10 col-12">
 
 		<p>My name is <b>Pham Xuan Khoai</b>, in short <b>Khoai</b> (if you are hard to pronounce my name, you can call me <b>Nolan</b>). 
-		I'm from Vietnam. Currently, I am R&D Manager and AI Engineer at TopCV company.</p>
+		I'm from Vietnam. Currently, I am Data Science Manager at TopCV company.</p>
 		
 		<p>Due to the influence of my first supervisor, <a href="http://mim.hus.vnu.edu.vn/phuonglh/">Dr. Le Hong Phuong</a>, 
 		I have a special concern about Natural Language Processing and Data Science. In 4 years after I graduated university, 
