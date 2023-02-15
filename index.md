@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pham Xuan Khoai
-tagline: Machine Learning Engineer
+tagline: Data Scientist
 section: home
 analytics: true
 headerStyle: small

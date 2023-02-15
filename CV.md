@@ -179,7 +179,7 @@ headerStyle: title
         
         <h3 id="skills">Skills</h3>
         <ul class="list-wrapper">
-            <li><div class="list-item"><p><b>Specialties:</b> Machine Learning, Natural Language Processing, Computer Vision, Data Mining</p></div></li>
+            <li><div class="list-item"><p><b>Specialties:</b>Research, Algorithm & Data Structures, Machine Learning, Natural Language Processing, Computer Vision, Data Mining</p></div></li>
             <li><div class="list-item"><p><b>Programming Language:</b> Python</p></div></li>
             <li><div class="list-item"><p><b>Packages:</b> scikit-learn, pytorch, keras, flair, spacy, gensim, pandas, numpy, ...</p></div></li>
             <li><div class="list-item"><p><b>Tools:</b> git, jupiter notebook</p></div></li>
